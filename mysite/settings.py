@@ -25,8 +25,11 @@ SECRET_KEY = 'x+3t@b2csjcv(*5ihe_t)1w*#!zp)o30gh^1^huj^&rh(-^(k)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = [
+    'herrsafran.pythonanywhere.com',
+    '127.0.0.1',
+]
+#git aufm rechner
 
 # Application definition
 
